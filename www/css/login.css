@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+}
+ul {
+    list-style: none;
+}
+.clear {
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: #515151;
+}
+
+.header {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header a img {
+    margin: 10px 0;
+    float: left;
+}
+.header a span {
+    font-size: 24px;
+    line-height: 70px;
+    padding-left: 3px;
+    color: #515151;
+    font-weight: bold;
+    margin: 10px 0 ;
+    float: left;
+}
+.login_main {
+    height: 390px;
+    width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+}
+.pic {
+    width: 540px;
+    height: 390px;
+    padding-top: 14px;
+    float: left;
+}
+.pic img {
+    margin-top: 32px;
+}
+.login {
+    width: 400px;
+    height: 398px;
+    float: left;
+}
+.login_header {
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+.login_header span {
+    display: inline-block;
+    color: #515151;
+    line-height: 50px;
+    font-size: 16px;
+    float: left;
+    font-family: "Microsoft YaHei", "����", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
+}
+.login_header a {
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    width: 70px;
+    height: 25px;
+    border: 1px solid #34b742;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 12px;
+    background-color: #fff4f0;
+}
+.login_form {
+    width: 400px;
+    height: 360px;
+    border: 1px solid #ccc
+}
+.zhang {
+    margin:50px 0 0;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    background: #34b742;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.user {
+    margin-top: 20px;
+}
+.deng {
+    margin-top: 35px;
+}
+.user p {
+    width: 324px;
+    height: 26px;
+    margin: 0 auto;
+    line-height: 26px;
+    font-size: 12px;
+    color: #616161;
+}
+.user input {
+    display: block;
+    width: 324px;
+    height: 36px;
+    margin: 0 auto;
+}
+.user button {
+    display: block;
+    width: 324px;
+    height: 36px;
+    margin: 0 auto;
+}
+.footer {
+    width: 1000px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.footer span {
+    display: block;
+    line-height: 26px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer span a:hover {
+    text-decoration: underline;
+}
+.footer div p {
+    height: 26px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0;
+}
+.reg_border {
+    color: red;
+}
+.tegTab {
+    display: none;
+}
+.show {
+    font-size: 16px;
+    background: url(../register/tabbg.jpg) left top no-repeat;
+}

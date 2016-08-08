@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/login.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="header">
+    <a href="index.html"><img src="register/logo.png" alt="图片"/>
+        <span>欢迎登录</span>
+    </a>
+    <div class="clear"></div>
+</div>
+<div class="login_main clear">
+    <div class="pic">
+        <a href="#"><img src="login/qixi.png" alt="图片"/></a>
+    </div>
+    <div class="login">
+        <div class="login_header">
+            <span>您还未登录</span>
+            <a href="register.html">免费注册</a>
+        </div>
+        <div class="login_form">
+        <p class="zhang">顺丰登录账号</p>
+        <form action="/login" id="fm1" method="post">
+                <div class="user">
+                    <p>手机/验证邮箱/用户名</p>
+                    <input type="text" name="petname" pattern="^[a-zA-Z]{6,12}$" required/>
+                </div>
+            <div class="user">
+                <p>登录密码</p>
+                <input type="password" name="password" pattern="^.{6,12}$" required/>
+            </div>
+            <div class="user deng">
+                <button type="submit" name="username">登录</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <span>
+        <a href="#">关于我们</a>
+        |
+        <a href="#">联系我们</a>
+        |
+        <a href="#">招聘人才</a>
+        |
+        <a href="#">友情链接</a>
+        |
+        <a href="#">供应商申请</a>
+    </span>
+    <div>
+        <p>北京顺丰电子商务有限公司</p>
+        <p>北京市公安局顺义分局备案11011302000890号|京ICP备12011349号|企业营业执照</p>
+        <p>Copyright© 顺丰优选 sfbest.com 版权所有</p>
+    </div>
+</div>
+<!--模态框-->
+<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog  modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">用户提示</h4>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/jquery-2.2.4.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="./scripts/public.js"></script>
+<script src="./scripts/login.js"></script>

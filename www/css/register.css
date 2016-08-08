@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    background: #f5f5f5;
+}
+ul {
+    list-style: none;
+}
+.clear {
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: #070707;
+    font-size: 12px;
+}
+
+.header {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header a img {
+    margin: 10px 0;
+    float: left;
+}
+.header a span {
+    font-size: 24px;
+    line-height: 70px;
+    padding-left: 3px;
+    color: #515151;
+    font-weight: bold;
+   margin: 10px 0 ;
+    float: left;
+}
+.tabBox {
+    display: block;
+     width: 1000px;
+    margin: 0 auto;
+    padding-left: 333px;
+    height: 37px;
+}
+.tabBox span {
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.reg_hide {
+    background: url(../register/tabbg1.jpg) no-repeat left top;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+    width: 163px;
+    height: 38px;
+    line-height: 38px;
+    font-family: 微软雅黑;
+}
+.reg_show {
+    background: url(../register/tabbg.jpg) no-repeat left top;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+    width: 163px;
+    height: 38px;
+    line-height: 38px;
+    font-family: 微软雅黑;
+}
+/*.reg_hide,.tabBox ,.reg_show {*/
+     /*cursor: pointer;*/
+     /*position: relative;*/
+     /*top: 1px;*/
+     /*width: 163px;*/
+     /*height: 38px;*/
+    /*line-height: 38px;*/
+     /*font-family: 微软雅黑;*/
+ /*}*/
+.regMr5 {
+    margin-right: 5px;
+}
+.login {
+    width: 130px;
+    float: right;
+    padding-top: 14px;
+    font-size: 12px;
+    color: #565656;
+}
+.reg_main ul li {
+    height: 38px;
+}
+.tabBox .login a {
+    color: #6C9C0A;
+}
+.reg_main {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 45px 0 0 40px;
+    border: 1px solid #d6d5d5;
+    background: #fff;
+}
+.individualUser {
+    background: url(../register/pic2.jpg) no-repeat right 78px;
+}
+.regMb30 {
+    height: 38px;
+    margin-bottom: 30px;
+}
+.reg_main li label {
+    width: 118px;
+    font-size: 14px;
+    color: #515151;
+    height: 38px;
+    line-height: 38px;
+    text-align: right;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+.reg_main li label font {
+    color: #ff4800;
+}
+.regM {
+    width: 268px;
+    height: 38px;
+    line-height: 38px;
+    display: block;
+    float: left;
+    border: 1px solid #cdcdcd;
+}
+.regInput {
+    display: block;
+    float: left;
+    width: 228px;
+    height: 35px;
+    border: none;
+    outline: none;
+    color: #515151;
+    padding: 0 5px;
+}
+.safetyLayer {
+    color: #666;
+    padding-top: 5px;
+    padding-left: 191px;
+}
+.safetyLayer font {
+    display: block;
+    float: left;
+}
+.default {
+    background: #c4c4c4;
+    text-align: center;
+    width: 34px;
+    margin-right: 2px;
+    color: #fff;
+    display: block;
+    float: left;
+    font-style: normal;
+}
+.regCodeInput {
+    float: left;
+    padding: 0 5px;
+    width: 58px;
+    height: 36px;
+}
+.regM16 {
+    margin-left: 6px;
+}
+.codeTitle {
+    width: 86px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+    margin-left: 6px;
+}
+.codeTitle a {
+    color: #6C9C0A;
+}
+.regP188 {
+    height: 38px;
+    padding-left: 88px;
+}
+.regp188 span a {
+    font-size: 12px;
+}
+.regMt10 {
+    margin-top: 10px;
+}
+.registerNow {
+    border: none;
+    width: 271px;
+    height: 38px;
+    float: left;
+    display: block;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    color: #fff;
+    background: url(../register/reg_btn.jpg) left top no-repeat;
+}
+.ui-reg-tip {
+    width: 930px;
+    left: -30px;
+    position: relative;
+    border-top: 1px dotted #dcdcdc;
+    padding: 15px 10px 10px 45px;
+    background: url(../register/reg_tip.png) no-repeat 25px 16px;
+}
+.ui-reg-tip a {
+    color: #6C9C0A;
+}
+.footer {
+    width: 1000px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.footer span {
+    display: block;
+   line-height: 26px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer span a:hover {
+    text-decoration: underline;
+}
+.footer div p {
+    height: 26px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0;
+}
+.reg_border {
+  color: red;
+}
+.tegTab {
+    display: none;
+}
+.show {
+    font-size: 16px;
+    background: url(../register/tabbg.jpg) left top no-repeat;
+}

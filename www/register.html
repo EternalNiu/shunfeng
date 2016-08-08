@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>顺丰优选SF-best</title>
+    <link rel="stylesheet" href="css/register.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="header">
+    <a href="index.html"><img src="register/logo.png" alt="图片"/>
+    <span>欢迎注册</span>
+    </a>
+    <div class="clear"></div>
+</div>
+<div class="tabBox">
+    <span class="reg_hide regMr5 reg_show">个人用户</span>
+    <span class="reg_hide reg " id="regcom">企业用户</span>
+    <div class="login">
+        已有账号，立即<a href="login.html">登录</a>
+    </div>
+</div>
+<div class="reg_main">
+    <ul class="individualUser">
+        <form action="/register"  method="post">
+            <li class="regMb30">
+                <label>
+                    <font>*</font>
+                    账户名
+                </label>
+                <span class="regM defaultBorder">
+                    <input id="userMam" name="petname" class="regInput" type="text" pattern="^[a-zA-Z]{6,12}$" required />
+                </span>
+            </li>
+            <li>
+                <label>
+                    <font>*</font>
+                    确认密码：
+                </label>
+                <span class="regM defaultBorder">
+                    <input id="password2" name="password" class="regInput" type="password" pattern="^.{6,12}$"  required/>
+                </span>
+            </li>
+            <li class="safetyLayer">
+                <font style="font-size: 12px">安全程度</font>
+                <em class="default">弱</em>
+                <em class="default">中</em>
+                <em class="default">强</em>
+            </li>
+            <li  class="regMb30">
+                <label>
+                    <font>*</font>
+                    登录密码：
+                </label>
+                <span class="regM defaultBorder">
+                    <input id="password" name="rpassword" class="regInput" type="password"  pattern="^.{6,12}$" required/>
+                </span>
+            </li>
+            <li class="regMb30" id="yzcode_3">
+                <label>
+                    <font>*</font>
+                    验证码：
+                </label>
+                <input type="text" class="regCodeInput defaultborder" id="auth_code" name="auth_code" />
+                <img src="register/yanzheng.png" alt="看不清？点一下！" id="code_img1"  width="106" height="36" border="0" class="floatleft regM16"/>
+                <span class="codeTitle floatleft regM16">
+                    看不清？
+                    <a href="#">换一换</a>
+                </span>
+            </li>
+            <li class="regP188">
+                <span class="regM" style="margin-left: 29px;border: none">
+                    <input type="checkbox"  id="AgreeId" name="AgreeId" />
+                    <a href="#" style="font-size: 12px">
+                        我已阅读并同意
+                        <font style="font-size: 12px">《顺丰优选用户注册协议》</font>
+                    </a>
+                </span>
+            </li>
+            <li class="register regP188 regMt10" style="margin-left: 29px">
+                <button type="submit" class="registerNow"   id="tjuid" name="tjuid">立即注册</button>
+            </li>
+        </form>
+    </ul>
+    <div class="ui-reg-tip">
+        <a href="#">了解更多>></a>
+    </div>
+</div>
+<div class="reg_main reg_border tegTab">
+    <p>企业用户注册维护中，暂时不可用</p>
+</div>
+<div class="footer">
+    <span>
+        <a href="#">关于我们</a>
+        |
+        <a href="#">联系我们</a>
+        |
+        <a href="#">招聘人才</a>
+        |
+        <a href="#">友情链接</a>
+        |
+        <a href="#">供应商申请</a>
+    </span>
+    <div>
+        <p>北京顺丰电子商务有限公司</p>
+        <p>北京市公安局顺义分局备案11011302000890号|京ICP备12011349号|企业营业执照</p>
+        <p>Copyright© 顺丰优选 sfbest.com 版权所有</p>
+    </div>
+</div>
+<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog  modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">用户提示</h4>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/jquery-2.2.4.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="./scripts/public.js"></script>
+<script src="./scripts/register.js"></script>
+<script>
+    $(function(){
+        $('.reg_show').click(function(){
+            $(this).addClass('reg_show');
+            $('.reg_main').css('display','block');
+            $('.reg_border').css('display','none');
+            $('.reg').removeClass('show');
+
+        });
+        $('.reg').click(function(){
+            $(this).addClass('show');
+            $('.reg_show').removeClass('reg_show');
+            $('.reg_main').css('display','none');
+            $('.reg_border').css('display','block')
+        })
+    })
+</script>

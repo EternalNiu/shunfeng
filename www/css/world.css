@@ -1,0 +1,73 @@
+/*环球美食的样式*/
+.clear1{
+    clear: both;
+    height: 5px;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    border: none;
+    overflow: hidden;
+}
+#hu-content{
+    width:100%;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+#hu-main{
+    width: 1000px;
+    margin: 0 auto;
+    height: auto;
+    background: #fff;
+}
+.country{
+    height:380px;
+    text-align: center;
+}
+.HpW{
+    width:1000px;
+    margin: 0 auto;
+    border: none;
+}
+#Hheader{
+    width:1000px;
+    height: 104px;
+    margin: 0 auto;
+}
+.HR{
+    width:650px;
+}
+input[type=search]{
+    width:335px;
+}
+.HNC{
+    width: 1000px;
+    margin: 0 auto;
+}
+#HFoot{
+    width:1000px;
+}
+#HFoot li{
+    width:250px;
+}
+#Hpage{
+    width:1000px;
+}
+#Hpage .middle{
+    width:240px;
+}
+#Hpage .footer_center{
+    width:500px;
+}
+#Hpage .footer_center{
+    width:500px;
+}
+#Hpage .footer_center ul{
+    width:110px;
+}
+#footer_bottom{
+    width:1000px;
+    margin: 0 auto;
+    padding-top: 15px;
+    border-top: 1px solid #E0E0E0;
+}

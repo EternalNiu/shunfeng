@@ -1,0 +1,187 @@
+/*美食汇样式*/
+#new-content{
+    width: 100%;
+    background: url(../image-2/guoji/bg-1.jpg) #F1DFD1 no-repeat center top;
+}
+#main{
+    width: 1000px;
+    margin: 0 auto;
+    height: auto;
+}
+.img2{
+    margin-bottom: -6px;
+}
+.maginT{
+    width:100%;
+    height:6px;
+    margin-top: -11px;
+}
+ .cream{
+    color: #F1DFD1;
+    width: 1000px;
+}
+ .cream ul{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .cream ul li{
+     height: 360px;
+     width: 240px;
+     margin: 2px;
+     overflow: hidden;
+     background:url(../image-2/guoji/bg-s.jpg) no-repeat;
+
+}
+.center{
+    width:215px;
+    height: 220px;
+    display: block;
+    margin: 8px auto;
+    margin-bottom: 0;
+}
+.pic p{
+    width:210px;
+    height: 35px;
+    text-align: center;
+
+}
+.priceSelect{
+    width: 215px;
+    margin: auto;
+    text-align:left;
+    color:#ea2125 ;
+}
+.priceSelect span{
+    font-size: 20px;
+    color: #ea2125;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.priceSelect span small{
+    font-size: 12px;
+    font-weight: normal;
+}
+.shopping{
+    width:200px;
+    cursor: pointer;
+    display: block;
+    margin: 4px auto;
+    height: 35px;
+    line-height: 35px;
+    background: url(../image-2/guoji/shop.gif) no-repeat;
+}
+.fexd{
+   position: fixed;
+    left:2%;
+}
+.share{
+    position: fixed;
+    right: 0;
+    top:330px;
+    transition: right 0.4s;
+}
+.shareStyle{
+    width:210px;
+    background: #FFFFFF;
+    border:1px solid #e9e9e9;
+    position: absolute;
+    bottom: -95%;
+    left: 23px;
+}
+.share_text{
+    width:210px;
+    height:30px;
+    line-height: 30px;
+    background: #f6f6f6;
+    border-bottom: 1px solid #f2f1f1;
+    color: #565656;
+    font-weight: 700;
+    text-indent: .5em;
+    font-size: 14px;
+}
+.shareStyle ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.shareStyle ul li{
+    width:100px;
+    height: 26px;
+    margin:2px;
+}
+.shareStyle ul li a{
+    color: #565656;
+    display: block;
+    width: 98%;
+    text-indent: 2.4em;
+    border: 1px solid #FFFFFF;
+}
+.bds{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -240px;
+}
+.bds_1{
+     background: url(../image-2/guoji/is.png) no-repeat 0 -80px ;
+ }
+.bds_2{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -120px;
+}
+.bds_3{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -2552px;
+}
+.bds_4{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -200px;
+}
+.bds_5{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -240px;
+}
+.bds_6{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -2195px;
+}
+.bds_7{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -280px;
+}
+.bds_8{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -320px ;
+}
+.bds_9{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -600px ;
+}
+.bds_10{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -400px;
+}
+.bds_11{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -440px;
+}
+.bds_12{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -160px;
+}
+.bds_13{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -2235px;
+}
+.bds_14{
+    background: url(../image-2/guoji/is.png) no-repeat 0 -1834px;
+}
+.bds_15{
+    background: url(../image-2/guoji/is.png) no-repeat 0 0;
+}
+.baidu{
+    width: 100%;
+    height:20px;
+    line-height: 20px;
+    background:#f8f8f8 ;
+    border-top:1px solid #f2f1f1;
+    text-align: right;
+}
+.baidu a{
+    background: url(../image-2/guoji/pi.gif) no-repeat 0 0;
+    background-position: 2px;
+    width:30%;
+    display: block;
+    float: right;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.showShare{
+    right:210px;
+    transition: right 0.4s;
+}
